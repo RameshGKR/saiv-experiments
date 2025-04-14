@@ -1,0 +1,21 @@
+units: 80.0
+activation_function: sigmoid
+learning_rate: 0.008987996967406965
+hidden_layers: 2.0
+The amount of trained epochs are: 100
+The loss function is: mean_squared_error
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_3 (Dense)             (None, 80)                400       
+                                                                 
+ dense_4 (Dense)             (None, 80)                6480      
+                                                                 
+ dense_5 (Dense)             (None, 3)                 243       
+                                                                 
+=================================================================
+Total params: 7,123
+Trainable params: 7,123
+Non-trainable params: 0
+_________________________________________________________________

@@ -1,0 +1,21 @@
+units: 96.0
+activation_function: relu
+learning_rate: 0.0057187405826164585
+hidden_layers: 2.0
+The amount of trained epochs are: 100
+The loss function is: mean_squared_error
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_2 (Dense)             (None, 96)                480       
+                                                                 
+ dense_3 (Dense)             (None, 96)                9312      
+                                                                 
+ dense_4 (Dense)             (None, 3)                 291       
+                                                                 
+=================================================================
+Total params: 10,083
+Trainable params: 10,083
+Non-trainable params: 0
+_________________________________________________________________

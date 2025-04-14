@@ -1,0 +1,23 @@
+units: 32.0
+activation_function: tanh
+learning_rate: 0.0007174948950517886
+hidden_layers: 3.0
+The amount of trained epochs are: 100
+The loss function is: mean_squared_error
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_2 (Dense)             (None, 32)                160       
+                                                                 
+ dense_3 (Dense)             (None, 32)                1056      
+                                                                 
+ dense_4 (Dense)             (None, 32)                1056      
+                                                                 
+ dense_5 (Dense)             (None, 3)                 99        
+                                                                 
+=================================================================
+Total params: 2,371
+Trainable params: 2,371
+Non-trainable params: 0
+_________________________________________________________________
