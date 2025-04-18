@@ -3,7 +3,8 @@ from casadi import vertcat
 from truck_trailer_multistage_loop_expert_function import get_expert_action_truck_trailer
 
 # Load the CSV
-df = pd.read_csv("call_expert.csv")
+#df = pd.read_csv("call_expert.csv")
+df = pd.read_csv("sample_call_expert.csv")
 
 # Prepare output columns
 output_v0_list = []
